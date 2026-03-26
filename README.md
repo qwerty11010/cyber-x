@@ -29,7 +29,7 @@
 
 # Скачивание репозитория:
 ```bash
-git clone https://github.com/qwerty11010/ITBur-CyberAudit-Cyber-X.git
+git clone https://github.com/qwerty11010/cyber-x.git
 ```
 
 # Установка:
@@ -59,8 +59,7 @@ sudo python3 audit.py
 python3 audit.py
 ```
 
-**Что делает:**
-Программа проверяет:
+**Что проверяет:**
 - права доступа к файлам и директориям (777, 666, sticky‑bit, world‑writable);
 - наличие секретов (пароли, ключи) в общедоступных файлах;
 - открытые сетевые порты и опасные сервисы (Telnet, FTP, SMB, MySQL);
@@ -80,7 +79,7 @@ python3 audit.py
 # Примечание
 Запускать нужно в папке проекта.
 ```bash
-cd /home/yota/ITBur-CyberAudit-Cyber-X
+cd /home/name/cyber-x
 sudo python3 audit.py
 ```
 
